@@ -100,7 +100,6 @@ Router.route("/Add").post((req, res) => {
     Router.route("/Edit/:carId").put((req, res) => {
         const carId = req.params.carId
         const {year, make, model, description, price, miles, highway, city, transmission, engine, header, vin, stockNumber, exterior, interior} = req.body;
-        console.log(description)
         cars.updateOne({_id: carId},  {$set: {year: year, make: make, model: model, description: description, price: price, miles: miles, highway: highway, city: city, transmission: transmission, engine: engine, header: header, vin: vin, stockNumber: stockNumber, exterior: exterior, interior: interior}})
         .then(() => res.json("Car updated"))
         .catch(err => res.json(err))
@@ -120,12 +119,11 @@ Router.route("/Add").post((req, res) => {
     Router.route("/AddView/:carId").put((req, res)=> {
         const carId = req.params.carId;
         const {views} = req.body;
-        console.log(views)
         cars.updateOne({_id: carId}, {$set: {views: views}})
         .then(() => res.json("Views added"))
         .catch(err => res.json(err))
     })
 
-    
+
 
 module.exports = Router;

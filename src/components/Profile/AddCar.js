@@ -1,7 +1,7 @@
 import React from "react";
 import {connect} from "react-redux";
 import {updateState, addcar} from "../../quakers/reducers/UserCarReducer";
-import {storage} from "../../firebase-config";
+import {storage} from "../../../firebase-config";
 import "./Addcar.css";
 import {Link} from "react-router-dom";
 
