@@ -1,0 +1,31 @@
+.loginMain {
+    display: flex;
+    justify-content: center;
+}
+
+.loginCard {
+    margin-top: 100px;
+    height: 300px;
+    width: 300px;
+    border: 0.5px solid gray;
+    box-shadow: 5px 5px 5px gray;
+    padding-top: 25px;
+}
+
+.loginCard input {
+    padding: 10px 10px 10px 10px;
+    margin-bottom: 25px;
+}
+
+.loginCard button {
+    position: absolute;
+    top: 300px;
+    left: 650px;
+}
+
+.loginCard h1 {
+    position: absolute;
+    top: 350px;
+    left: 635px;
+    font-family: 'Fjalla One', sans-serif;
+}

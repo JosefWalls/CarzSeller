@@ -1,0 +1,21 @@
+.addCarMain {
+    display: flex;
+    justify-content: center;
+}
+
+.addCarForm {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 250px;
+    box-shadow: 1px 1px 10px grey;
+    padding: 5px 5px 5px 5px;
+    margin-top: 10px;
+}
+
+.addCarForm input {
+    margin: 5px 0px 5px 0px;
+}
+
+.cancelButton {
+    margin: 10px 0px 10px 0px;
+}

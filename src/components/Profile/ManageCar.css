@@ -1,0 +1,72 @@
+.manageCarHeader {
+    height: 250px;
+    width: 550px;
+    box-shadow: 1px 1px 10px grey;
+    position: relative;
+    top: 25px;
+    left: 200px;
+}
+
+.manageCarHeader h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1em;
+    padding: 10px 10px 10px 10px;
+}
+
+.manageCarHeader img {
+    height: 200px;
+    width: 350px;
+    box-shadow:  1px 1px 10px black;
+}
+
+.manageCarDetails {
+    box-shadow: 1px 1px 10px grey;
+    margin: 50px 200px 10px 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.manageCarDetails p {
+    font-family: 'Fjalla One', sans-serif;
+    margin: 10px 0px 10px 0px;
+}
+
+.manageCarPrice {
+    box-shadow:  1px 1px 10px grey;
+    margin: 50px 200px 10px 200px;
+    position: relative;
+    bottom: 425px;
+    width: 250px;
+    left: 650px;
+    height: 50px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.manageCarPrice h3 {
+    padding: 15px 20px 20px 20px;
+    font-size: 1.5em;
+}
+
+.manageCarDescription {
+    box-shadow: 1px 1px 10px grey;
+    margin: -80px 200px 50px 200px;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 20px 20px 20px 20px;
+}
+
+.manageCarDescription p {
+    padding: 10px 0px 10px 0px;
+}
+
+/* //header */
+.editMenuClosed, .editDetailsClosed, .editPriceClosed, .editDescriptionClosed {
+    display: none;
+}
+
+.editMenuOpen, .editPriceOpen, .editDetailsOpen, .editDescriptionOpen {
+    background: rgba(155, 155, 155, 0.8);
+    position: fixed;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+}

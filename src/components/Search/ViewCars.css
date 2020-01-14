@@ -1,0 +1,53 @@
+.mappedCars {
+    display: grid;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.carSearchCard {
+    border: 0.5px solid gray;
+    border-radius: 5%;
+    height: 125px;
+    margin: 10px 0px 10px 0px;
+    width: 750px;
+    font-family: 'Fjalla One', sans-serif;
+    box-shadow: 5px 5px 5px grey;
+}
+
+.carInfo {
+    margin-left: 250px;
+    position: relative;
+    right: 45px;
+    bottom: 80px;
+    height: 75px;
+}
+
+.carInfo h1{
+    position: relative;
+    right: 180px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}
+
+.carInfo p {
+    position: relative;
+    right: 52.5px;
+    top: 25px;
+}
+
+.carSearchCard img {
+    position: relative;
+    top: 10px;
+    right: 290px;
+    width: 150px;
+    height: 100px;
+}
+
+.carInfo h3 {
+    position: relative;
+    bottom: 30px;
+    left: 175px;
+    font-weight: bold;
+    font-family: 'Lato', sans-serif;
+}

@@ -1,0 +1,80 @@
+.carHeader, .carPriceCard, .carDetails, .mappedOwner {
+    border-radius: 5%;
+}
+
+.carDetails {
+    margin: 10px 50px 0px 50px;
+}
+
+.carHeader {
+    width: 750px;
+    margin: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 10px grey;
+}
+
+.carHeader h1 {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2em;
+    position: relative;
+    right: 235px;
+    padding-top: 10px;
+}
+
+.carHeader img {
+    height: 300px;
+    width: 650px;
+    margin: 20px 0px 20px 0px;
+}
+
+.carPriceCard {
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2em;
+    width: 450px;
+    position: absolute;
+    bottom: 500px;
+    left: 825px;
+    padding: 10px 0px 10px 0px;
+    box-shadow: 1px 1px 10px grey;
+}
+
+.mappedOwner {
+    box-shadow: 1px 1px 10px grey;
+    width: 450px;
+    position: relative;
+    left: 775px;
+    bottom: 375px;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.5em;
+}
+
+.mappedOwner h1 {
+    padding: 10px 0px 10px 0px;
+}
+
+.mappedOwner img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.carInformation {
+    box-shadow: 1px 1px 10px grey;
+    margin: 0px 10px 0px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.5em;
+}
+
+.carInformation P {
+    margin: 5px 0px 5px 0px;
+}
+
+.carDescription {
+    box-shadow: 1px 1px 10px grey;
+    position: relative;
+    margin: 0px 10px 0px 10px;
+    padding: 10px 10px 10px 10px;
+    font-family: 'Fjalla One', sans-serif;
+    bottom: 200px;
+}
